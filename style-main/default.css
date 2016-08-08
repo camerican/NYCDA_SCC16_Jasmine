@@ -1,0 +1,8 @@
+body{
+	background-repeat: no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	background-attachment: fixed;
+	background-position: top;
+	background-image: url('../img/homepic.jpg');
+}
