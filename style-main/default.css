@@ -35,15 +35,10 @@ main{
 }
 
 h1.large_title{
-<<<<<<< HEAD
-	display: block;
-	margin: 100px;
-=======
 	display: block ;
 }
 
 .content {
 	margin-top: 1600px;
 	
->>>>>>> c47a9c4ffe612007d93b95f3773aa5ff779f4622
 }
