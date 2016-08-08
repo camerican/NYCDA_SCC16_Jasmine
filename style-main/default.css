@@ -50,6 +50,7 @@ main{
 	margin-right: 250px;
 	margin-left: 250px;
 	padding: 3px;
+	z-index: 5;
 }
 
 .box p{
