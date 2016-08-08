@@ -2,12 +2,24 @@ body {
 	background-color: black;
 }
 
-#content_wrapper {
+main {
+	background-color: white;
+}
+
+#container {
+	width: 100%;
+}
+
+.wrapper {
+	
+}
+
+.content.wrapper {
 	padding-top: 80px;
 	padding-left: 20px;
 	background-color: white;
+	width: 75%;
 
-	width: 80%;
 
 }
 
@@ -33,3 +45,15 @@ iframe {
 	height: 515px;
 }
 
+.right.wrapper
+{
+	width:25%;
+	height: 100%;
+	background-color: white;
+	
+	
+}
+
+#right-bar img {
+	
+}
