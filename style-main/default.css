@@ -28,5 +28,6 @@ main{
 }
 
 h1.large_title{
-	display: block ;
+	display: block;
+	margin: 100px;
 }
