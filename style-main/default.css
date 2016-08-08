@@ -6,3 +6,26 @@ body{
 	background-position: top;
 	background-image: url('../img/homepic.jpg');
 }
+
+main{
+	text-align: center;
+}
+
+.scroll{
+	color: white;
+	position: absolute;
+	bottom: 0;
+}
+
+.desc{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	margin-bottom: 500px;
+	position: relative;
+}
+
+h1.large_title{
+	display: block ;
+}
