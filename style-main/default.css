@@ -10,7 +10,6 @@ body{
 	background-attachment: fixed;
 	background-position: top;
 	background-image: url('../img/homepic.jpg');
-	font-family: 'Orbitron', sans-serif;
 	background-color: black;
 }
 
@@ -40,6 +39,12 @@ main{
 
 .content {
 	width: 100%;
-	padding-top: 600px;
-	padding-bottom: 300px;
+	padding-top: 800px;
+	padding-bottom: 200px;
+}
+
+.content p{
+	margin-left: 250px;
+	margin-right: 250px;
+	font-size: 18px;
 }
