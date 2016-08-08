@@ -1,0 +1,29 @@
+#content_wrapper {
+	padding-top: 80px;
+	padding-left: 20px;
+
+	width: 80%;
+
+}
+
+#dj100pic img
+{
+	width: 100%;
+	height: auto;
+}
+
+#header h1 {
+	font-size: 50px;
+}
+
+#header_content h3 {
+
+	font-size: 22px;
+}
+
+iframe {
+	margin-top: 20px;
+	width: 720px; 
+	height:515px;
+}
+
