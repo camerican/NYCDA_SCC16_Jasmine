@@ -1,10 +1,16 @@
+body {
+	background-color: black;
+}
+
 #content_wrapper {
 	padding-top: 80px;
 	padding-left: 20px;
+	background-color: white;
 
 	width: 80%;
 
 }
+
 
 #dj100pic img
 {
