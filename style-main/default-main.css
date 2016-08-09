@@ -43,7 +43,16 @@ main{
 	padding-bottom: 200px;
 }
 
-.content p{
-	margin-left: 250px;
+
+.box{
+	background-color: rgba(0,0,0,0.4);
+	display:inline-block;
 	margin-right: 250px;
+	margin-left: 250px;
+	padding: 3px;
+	z-index: 5;
+}
+
+.box p{
+	font-size: 18px;
 }
