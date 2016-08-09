@@ -97,9 +97,10 @@ footer{
 	bottom: 0;
 	color: white;
 	text-align: center;
+	clear:both;
+	margin:0;
 }
 
 footer p{
-	padding: 40px;
-	line-height: 20px;
+	top:;
 }

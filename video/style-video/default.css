@@ -6,6 +6,20 @@ main {
 	background-color: white;
 }
 
+
+* {
+	box-sizing: border-box;
+}
+#right_area {
+	margin-top:80px; /* push the content down */
+	float:right; /* float it to the right-most */
+	background-color: lightblue;
+	margin-right: 5px;
+	width: 24%; /* set a proportional width */
+}
+
+
+
 #container {
 	width: 100%;
 }
