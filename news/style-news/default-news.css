@@ -1,0 +1,73 @@
+.col{
+	display: inline-block;
+	width: 30%;
+	height: 94vh;
+	border: 2px dashed pink;
+	margin-left: 0px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #66A1FB;
+	padding-top: 10px;
+}
+
+.col.ultra{
+	margin-right: 5px;
+}
+
+.col.edc{
+	margin-right: 5px;
+}
+
+main{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.col a:link, .col a:visited{
+	text-decoration:none;
+}
+
+.col h1{
+	color: black;
+	font-weight: bold;
+	font-size: 48px;
+	margin: 0px;
+	padding-bottom:10px;
+}
+
+.box{
+	width: 20vw;
+	height: 25vh;
+	display:inherit;line-block;
+	border: 2px dashed rgba(255, 30, 100, .8);
+	margin-bottom: 1vh;
+	padding: 3px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ult1{
+	background-image: url('http://3.bp.blogspot.com/-82Ivj0CrvLw/U-TiBLlSS8I/AAAAAAAA7yo/9mJjq5cfzic/s700/2014_08_06_fruit-salad-raspberry_9999_45raspberry-fruit-salad.jpgc');
+}
+
+.page{
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.one{
+	background-color: black;
+	color: white;
+}
+
+.two{
+	background-color: white;
+}
+
+.three{
+	background-color: pink
+}
