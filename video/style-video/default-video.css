@@ -13,19 +13,19 @@ main {
 #right_area {
 	margin-top:80px; /* push the content down */
 	float:right; /* float it to the right-most */
-	background-color: lightblue;
+	text-align:center;
 	margin-right: 5px;
 	width: 24%; /* set a proportional width */
+}
+
+#right_area img {
+	width:100%;
 }
 
 
 
 #container {
 	width: 100%;
-}
-
-.wrapper {
-	
 }
 
 .content.wrapper {

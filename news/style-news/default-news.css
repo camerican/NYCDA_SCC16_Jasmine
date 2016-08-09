@@ -153,19 +153,104 @@ main{
 	height: 100vh;
 	width: 100%;
 	text-align: center;
+	vertical-align: middle;
 	padding-top: 100px;
 	clear:both;
 }
+		
 
-.one{
-	background-color: black;
-	color: white;
+.page.one{
+	background: url("../../img/ultra_people.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+	/*height:100%;*/
+}
+.page.one::before{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
 }
 
-.two{
-	background-color: white;
+.content {
+	/*padding-top:120px;*/
+	/*display:none;*/
+	width: 60vw;
+	height: 700px;
+	background-color: blue;
+	margin-left: 20vw;
+	
 }
 
-.three{
-	background-color: pink
+.content h1 {
+	font-size:500%;
+	color:red;
+	display:none;
 }
+
+.content:hover {
+	display:inline;
+}
+
+.content:hover h1 {
+	display:inline;
+}
+
+
+.page.two{
+	background: url("../../img/edc_content.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+	/*height:100%;*/
+}
+.page.two::before{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+
+}
+
+
+.page.three{
+	background: url("../../img/tomorrowland_content.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+	/*height:100%;*/
+}
+.page.three::before{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+./*box{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}*/
+
+h1,p{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
