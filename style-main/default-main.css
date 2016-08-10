@@ -30,6 +30,12 @@ main{
 	width: 100%;
 }
 
+.some-words {
+	margin:0 auto;
+	text-align:left;
+	width:vw;
+}
+
 #desc{
 	width: 100%;
 	height: 100%;
