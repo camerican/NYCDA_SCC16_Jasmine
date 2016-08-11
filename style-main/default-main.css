@@ -40,6 +40,7 @@ main{
 	width: 100%;
 	padding-top: 800px;
 	padding-bottom: 200px;
+	text-align: center;
 }
 
 
@@ -55,7 +56,6 @@ main{
 .box p{
 	font-size: 18px;
 }
-
 
 .some-words{
 	width: 80%;
