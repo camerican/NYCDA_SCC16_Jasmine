@@ -56,3 +56,16 @@ main{
 .box p{
 	font-size: 18px;
 }
+
+
+.some-words{
+	width: 80%;
+	margin: 0px;
+	margin-top: 40vh;
+	margin-left: 10%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.some-words h3{
+	font-size: 64px;
+}
