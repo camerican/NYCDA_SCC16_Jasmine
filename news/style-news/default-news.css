@@ -5,23 +5,13 @@ body {
 .col{
 	float:left;
 	width: 33.3%;
-	height: 94vh;
-	/*border: 2px dashed pink;*/
+	height: 100vh;
 	margin-left: 0px;
 	text-align: center;
-/*	margin-top: 5px;
-	margin-bottom: 5px;*/
 	background-color: black;
 	padding-top: 10px;
 }
-/*
-.col.ultra{
-	margin-right: 5px;
-}
 
-.col.edc{
-	margin-right: 5px;
-}*/
 
 main{
 	margin-top: 60px;
@@ -46,9 +36,14 @@ main{
 
 .box1{
 	width: 100%;
+<<<<<<< HEAD
 	height: 800px;
 	display:inline-block;
 	/*border: 2px dashed rgba(255, 30, 100, .8);*/
+=======
+	height: 100vh;
+	display:inline-block;
+>>>>>>> origin
 	margin-bottom: 1vh;
 	padding: 3px;
 	background-repeat: no-repeat;
@@ -81,8 +76,8 @@ main{
 
 .box2{
 	width: 100%;
-	height: 800px;
-	display:inherit;line-block;
+	height: 100vh;
+	display:inline-block;
 	/*border: 2px dashed rgba(255, 30, 100, .8);*/
 	margin-bottom: 1vh;
 	padding: 3px;
@@ -107,7 +102,6 @@ main{
 
 }
 
-
 .box2:hover h1 {
    display:inline;
    
@@ -115,8 +109,8 @@ main{
 
 .box3{
 	width: 98%;
-	height: 800px;
-	display:inherit;line-block;
+	height: 100vh;
+	display:inline-block;
 	/*border: 2px dashed rgba(255, 30, 100, .8);*/
 	margin-bottom: 1vh;
 	padding: 3px;
@@ -146,111 +140,7 @@ main{
    display:inline;
    
 }
-
-
-
-.page{
-	height: 100vh;
-	width: 100%;
-	text-align: center;
-	vertical-align: middle;
-	padding-top: 100px;
-	clear:both;
-}
-		
-
-.page.one{
-	background: url("../../img/ultra_people.jpg") no-repeat center;
-	background-size: cover;
-	position: relative;
-	/*height:100%;*/
-}
-.page.one::before{
-	background-color: rgba(0,0,0,0.5);
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: ' ';
-}
-
-.content {
-	/*padding-top:120px;*/
-	/*display:none;*/
-	width: 60vw;
-	height: 700px;
-	background-color: blue;
-	margin-left: 20vw;
-	
-}
-
-.content h1 {
-	font-size:500%;
-	color:red;
-	display:none;
-}
-
-.content:hover {
-	display:inline;
-}
-
-.content:hover h1 {
-	display:inline;
-}
-
-
-.page.two{
-	background: url("../../img/edc_content.jpg") no-repeat center;
-	background-size: cover;
-	position: relative;
-	/*height:100%;*/
-}
-.page.two::before{
-	background-color: rgba(0,0,0,0.5);
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: ' ';
-
-}
-
-
-.page.three{
-	background: url("../../img/tomorrowland_content.jpg") no-repeat center;
-	background-size: cover;
-	position: relative;
-	/*height:100%;*/
-}
-.page.three::before{
-	background-color: rgba(0,0,0,0.5);
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: ' ';
-}
-./*box{
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}*/
-
 h1,p{
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
 
