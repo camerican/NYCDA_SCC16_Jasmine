@@ -36,14 +36,14 @@ main{
 
 .box1{
 	width: 100%;
-<<<<<<< HEAD
+
 	height: 800px;
 	display:inline-block;
 	/*border: 2px dashed rgba(255, 30, 100, .8);*/
-=======
+
 	height: 100vh;
 	display:inline-block;
->>>>>>> origin
+
 	margin-bottom: 1vh;
 	padding: 3px;
 	background-repeat: no-repeat;
