@@ -1,0 +1,77 @@
+body{
+	height: 100vh;
+	margin: 0;
+	width: 100%;
+	background-color: pink;
+	position: relative;
+}
+
+/*name and link*/
+.top{
+	text-decoration:none;	
+	color: white;
+	text-align: center;
+}
+
+.top h1{
+	margin: 0;
+	padding:10px;
+	font-size: 36px;
+}
+
+main{
+	position: relative;
+}
+
+/*filter for categories*/
+.categories{
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.categories h2{
+	margin-top: 0;
+}
+
+.choice{
+	display:inline-block;
+}
+
+.checkbox_wrapper{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*Profile Portion*/
+.port{
+	width: 35%;
+	background-color: blue;
+	height: 300px;
+	margin-left: 10%;
+	display:inline-block;
+	margin-bottom: 30px;
+}
+
+/*.prof{
+	width: 80%;
+	height: 200px;
+	background-color: green;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+*/
+/*footer*/
+footer{
+	position: fixed;
+	bottom: 0;
+	height: 10vh;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	z-index: 1;
+}
+
+li{
+	display:inline-block;
+}
